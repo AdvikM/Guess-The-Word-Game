@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="scoreBox">
+        <h1>
+            <span id='player1_name'>Advik</span>
+              :
+            <span id='player2_score'>0</span>   
+          
+          </h1>	
+          <h1>
+            <span id='player2_name'>Advik</span>
+              :
+            <span id='player1_score'>0</span>   
+          
+          </h1>
+    </div>
+    <center>
+        <h1>Guess The Word</h1>
+        <h1>Question Turn : <span id="question">Advik</span></h1>
+        <h1>Answer Turn : <span id="answer">Advik</span></h1>
+        <div id="questionDiv"></div>
+        <h5>Send Your Word: <span id="warning">Try putting word whic as  or more alpabet</span></h5>
+        <input type="text" placeholder="Word" id="word">
+        <br>
+        <br>
+        <button onclick="send()">Send</button>
+    </center>
+    <script src="game.js"></script>
+</body>
+
+</html>
